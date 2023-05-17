@@ -47,7 +47,7 @@ function Home() {
                         }}>Contact me</a>
                 </button>
                 <div className="2xl:w-8/12 w-10/12 mx-auto mt-4">
-                    <a href="https://ww.google.com" target="_blank">
+                    <a href="https://instagram.com/ble55in9in?igshid=NTc4MTIwNjQ2YQ==" target="_blank">
                         <i
                             className="fa-brands p-2 my-2 2xl:mx-4 xl:mx-4 lg:mx-4 mx-2 font-headthree fa-instagram text-zinc-50 bg-zinc-800 hover:bg-zinc-50 hover:text-rose-500 rounded-full"></i>
                     </a>
