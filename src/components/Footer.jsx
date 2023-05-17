@@ -9,7 +9,7 @@ function Footer() {
                         <div className="row text-center p-3">
                         <div className="col-lg-4">
                         <div className="my-3">
-                        <a href="https://ww.google.com" target="_blank">
+                        <a href="https://instagram.com/ble55in9in?igshid=NTc4MTIwNjQ2YQ==" target="_blank">
                         <i
                             className="fa-brands p-2 my-2 2xl:mx-4 xl:mx-4 lg:mx-4 mx-2 font-headfour fa-instagram text-zinc-50 bg-zinc-800 hover:bg-zinc-50 hover:text-rose-500 rounded-full"></i>
                     </a>
