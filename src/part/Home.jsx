@@ -88,7 +88,7 @@ function Home() {
         the youtube videos on Mordern tech innovations. One day i stumbled accross an
         amazing website design tutorial for a Restaurant sites then i was hooked, And
         the lifestyle is a plus, i love my solitude.</p>
-    <p className="font-headfour mt-5 mx-7 pb-5 text-black opacity-50 fw-bold">My Number 1 Goal
+    <p className="font-headfour mt-5 mx-7 pb-5 text-black opacity-50 fw-bold">My #1 Goal
         is To Grow My Skills and Sharpen my knowledge base, I want to be the best developer i
         can be.</p> </div>
 </div> 
