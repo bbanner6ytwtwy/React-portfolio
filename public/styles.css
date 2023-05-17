@@ -1,0 +1,95 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+nav{
+    border-radius: 0px 0px 50px 50px;
+}
+.home-bgi{
+    background: linear-gradient(rgba(255,255,255,0.07), rgba(225,225,225,0.07)), url("../media/bg.jpg");
+    background-repeat: no-repeat;
+}
+.bg-brown{
+    background-color: brown;
+}
+/* Define the keyframe animation */
+@keyframes move-text {
+    0% {
+      transform: translateX(0%); 
+    }
+    100% {
+      transform: translateX(-770%); 
+    }
+  }
+@keyframes move-text1 {
+    0% {
+      transform: translateX(-770%); 
+    }
+    100% {
+      transform: translateX(0); 
+    }
+  }
+@keyframes move-text2 {
+    0% {
+      transform: translateX(-600%); 
+    }
+    100% {
+      transform: translateX(0); 
+    }
+  }
+  
+  /* Apply the animation to the text element */
+  .text-animation {
+    white-space: nowrap; 
+    animation: move-text 60s linear infinite; 
+    animation-fill-mode: forwards;
+  }
+  .text-animation1 {
+    white-space: nowrap; 
+    animation: move-text1 60s linear infinite; 
+    animation-fill-mode: forwards;
+  }
+  .text-animation2 {
+    white-space: nowrap; 
+    animation: move-text2 60s linear infinite; 
+    animation-fill-mode: forwards;
+  }
+  .move-text{
+      font-size: 8rem;
+  }
+  .font-head{
+    font-size: 6vw;
+  }
+  .font-headthree{
+    font-size: 4vw;
+  }
+  .font-headfour{
+    font-size: 2vw;
+  }
+  .font-sechead{
+    font-size: 3vw;
+  }
+  @media (max-width: 700px){
+    .font-head{
+      font-size: 10vw;
+    }
+    .font-headthree{
+      font-size: 8vw;
+    }
+    .font-headfour{
+      font-size: 4vw;
+    }
+    .font-sechead{
+      font-size: 5vw;
+    }
+  }
+  .w-icon{
+   width: 4vw;
+  }
