@@ -16,14 +16,14 @@ function Home() {
             <div
                 className="col-12 xl:pt-44  sm:pt-32 pt-36 2xl:px-44 xl:px-44 lg:px-14 md:px-7 px-0 text-center pb-32">
                 <h1
-                    className="font-head text-center xl:px-5 xl:mx-5 px-2 mx-2"
+                    className="font-head text-white underline text-center xl:px-5 xl:mx-5 px-2 mx-2"
                     style={{
                         "fontFamily" : "Anton"
                     }}>WELCOME
                     TO MY PORTFOLIO, I HOPE YOU ENJOY THE DESIGN, THE EXPERIENCE, JUST ENJOY IT.</h1>
                 <hr className="w-9/12 h-5 bg-black opacity-100 mx-auto"/>
                 <h1
-                    className="font-sechead text-center xl:px-5 xl:mx-5 px-2 mx-2 mt-3"
+                    className="font-sechead text-slate-300 mb-2 text-center xl:px-5 xl:mx-5 px-2 mx-2 mt-3"
                     style={{
                         "fontFamily" : "Anton"
                     }}>HI,
@@ -92,21 +92,21 @@ function Home() {
         is To Grow My Skills and Sharpen my knowledge base, I want to be the best developer i
         can be.</p> </div>
 </div> 
-</Fade> <div className = "row bg-light" > <Fade duration={1000}  bottom="bottom">
+</Fade> <div className = "row bg-light" > <Fade  bottom="bottom">
         <div className="col-12 text-center my-5">
             <button className="bg-black rounded-5 fs-4 p-3 select-none text-light">My work</button >
             <h1
                 className="font-head pt-3 general-font text-black text-center"
                 style={{
                     "fontFamily" : "Anton"
-                }}>Basic Projects</h1>
+                }}>Complex Projects</h1>
         </div>
-        <div className="home-bgi pb-20 row mx-1">
+        <div className="home-bgi pb-10 row mx-1">
             {
-                Basic.map((element) => {
+                Complex.map((element) => {
                     return (
                         <div key={element.id} className="col-lg-6 col-md-6 px-2 py-2 text-center sm:mt-1 ">
-                            <a className="text-decoration" href={element.url} target="_blank">
+                            <a className="text-decoration" href={element.url} rel="dns-prefetch" target="_blank">
                                 <div
                                     className="card align-middle mb-1 border-4 grayscale  hover:grayscale-0 rounded-3xl ">
                                     <img src={element.img} className="card-img-top rounded-3xl" alt="img"/>
@@ -199,8 +199,8 @@ function Home() {
             </div>
 
                 <div className="row  bg-light">
-                    <Fade duration={1000}  bottom>
-                        <div className="col-12 text-center my-3">
+                    <Fade bottom>
+                        <div className="col-12 text-center my-4">
                             <h1
                                 className="font-head pt-3 general-font text-black text-center"
                                 style={{
@@ -270,17 +270,17 @@ function Home() {
                             </div>
                             </div>
                                 <div className="row pt-14 bg-light">
-                                    <Fade duration={1000}  bottom="bottom">
+                                    <Fade  bottom="bottom">
                                         <div className="col-12 text-center my-3">
                                             <h1
                                                 className="font-head pt-3 general-font text-black text-center"
                                                 style={{
                                                     "fontFamily" : "Anton"
-                                                }}>Advanced Projects</h1 >
+                                                }}>Basic Projects</h1 >
                                         </div>
                                         <div className="home-bgi row mx-1">
                                             {
-                                                Complex.map((element) => {
+                                                Basic.map((element) => {
                                                     return (
                                                         <div key={element.id} className="ccol-lg-6 col-md-6 px-2 py-2 text-center sm:mt-1">
                                                             <a className="text-decoration" href={element.url} target="_blank">
