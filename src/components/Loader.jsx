@@ -27,7 +27,7 @@ const PageLoader = () => {
         wrapperStyle={{}}
         wrapperClass="blocks-wrapper"
         color="brown"
-      /><h1 className='text-red-900 text-xl'>Loading... Please be Patient...</h1>
+      /><h1 className='text-red-800 text-xl'>Loading... Please be Patient...</h1>
     </div> 
       ) : null}
     </div></>
