@@ -1,4 +1,4 @@
-import { ColorRing } from 'react-loader-spinner'
+import { CirclesWithBar } from 'react-loader-spinner'
 import React, { useEffect, useState } from 'react';
 
 const PageLoader = () => {
@@ -19,14 +19,17 @@ const PageLoader = () => {
     <div>
       {isLoading ? (
         <div className='z-50 bg-black w-screen fixed top-0 h-screen flex flex-col items-center justify-center'>
-        <ColorRing
-        visible={true}
-        height="120"
-        width="120"
-        ariaLabel="blocks-loading"
+        <CirclesWithBar
+        height="100"
+        width="100"
+        color="#4fa94d"
         wrapperStyle={{}}
-        wrapperClass="blocks-wrapper"
-        color="brown"
+        wrapperClass=""
+        visible={true}
+        outerCircleColor=""
+        innerCircleColor=""
+        barColor=""
+        ariaLabel='circles-with-bar-loading'
       /><h1 className='text-red-800 text-xl'>Loading... Please be Patient...</h1>
     </div> 
       ) : null}
